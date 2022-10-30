@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Login-m1</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container a-container" id="a-container">
+        <form class="form" id="a-form" method="" action="">
+          <h2 class="form_title title">Crear Cuenta</h2>
+          <div class="form__icons"></div>
+          <span class="form__span">o usa una cuenta para registrarte</span>
+          <input class="form__input" type="text" placeholder="Nombre" />
+          <input class="form__input" type="text" placeholder="Correo" />
+          <input class="form__input" type="password" placeholder="Contraseña" />
+          <button class="form__button button submit">REGISTRARME</button>
+        </form>
+      </div>
+      <div class="container b-container" id="b-container">
+        <form class="form" id="b-form" method="" action="">
+          <h2 class="form_title title">Inicia sesión a tu cuenta</h2>
+          <div class="form__icons"></div>
+          <span class="form__span">o usa tu cuenta de email</span>
+          <input class="form__input" type="text" placeholder="Correo" />
+          <input class="form__input" type="password" placeholder="Contraseña" />
+          <a href="" class="form__link">¿Olvidaste tu contraseña?</a>
+          <button class="form__button button submit">INICIAR SESIÓN</button>
+        </form>
+      </div>
+      <div class="switch" id="switch-cnt">
+        <div class="switch__circle"></div>
+        <div class="switch__circle switch__circle--t"></div>
+        <div class="switch__container" id="switch-c1">
+          <h2 class="switch__title title">¡Bienvenido!</h2>
+          <p class="switch__description description">
+            Para mantenerte conectado con nosotros, por favor inicia sesión con tu correo y contraseña.
+          </p>
+          <button class="switch__button button switch-btn">INICAR SESIÓN</button>
+        </div>
+        <div class="switch__container is-hidden" id="switch-c2">
+          <h2 class="switch__title title">¡Hola de nuevo!</h2>
+          <p class="switch__description description">
+            Ingresa tu información personal para comenzar el viaje con nosotros.
+          </p>
+          <button class="switch__button button switch-btn">REGISTRARME</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/style.js"></script>
+  </body>
+</html>
